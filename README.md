@@ -1,70 +1,49 @@
-🎴 E-Card Generator
+# 🎴 E-Card Generator
+A multi-user Flask web application that generates and manages personalized event e-cards. Designed with role-based access for admins and users, enabling secure registrations, card requests, and easy management.
 
-A role-based Flask web application for generating and managing personalized e-cards. Designed for secure registrations, easy card requests, and smooth admin oversight.
+## 📌 Features
+🔐 User Authentication – Register & Login securely  
+👥 Multi-User Roles – Admin and Regular Users  
+🎨 E-Card Creation – Generate customized event cards  
+📂 Card Management – Request tracking & approval system  
+📊 User Dashboard – View generated cards and request history  
 
-📌 Features
+## 🛠️ Technologies Used
+### 🔧 Backend
+- Flask – Routing & backend logic  
+- Flask-Login – Secure session & role management  
+- SQLAlchemy – ORM for database models & queries  
+- Python 3.12 – Core language  
 
-🔐 User Authentication – Secure registration & login
-👥 Multi-User Roles – Admin and Regular Users
-🎨 E-Card Creation – Generate customized event cards
-📂 Card Management – Track card requests and approvals
-📊 User Dashboard – View personal cards and history
+### 🎨 Frontend
+- HTML, CSS, Bootstrap 5.0 – Responsive design  
+- Jinja2 – Dynamic template rendering  
+- Font Awesome – Icons  
 
-🛠️ Technologies Used
-🔧 Backend
+### 🗄️ Database
+- SQLite – Lightweight relational DB  
+- SQLAlchemy – Schema & interaction  
 
-Flask – Routing & backend logic
+## 🧠 Roles & Functionalities
+👨‍💼 **Administrator (Superuser)**  
+- Manage users & card requests (approve/reject)  
+- Monitor overall activity  
+- Auto-created during setup (no manual signup)  
 
-Flask-Login – Session & role management
+👤 **Registered User**  
+- Sign up & log in  
+- Generate personalized e-cards  
+- Submit requests and track status  
+- View e-card history  
 
-SQLAlchemy – ORM for database models & queries
+## 🔮 Future Improvements
+📧 Email delivery of generated cards  
+📑 Export e-cards as PDF  
+📱 Mobile-friendly UI  
+☁️ Cloud deployment (Heroku/AWS)  
 
-Python 3.12 – Core language
+## 👨‍💻 Author
+**Aditya Raj**  
+GitHub: [aditya-raj011](https://github.com/aditya-raj011)
 
-🎨 Frontend
 
-HTML, CSS, Bootstrap 5.0 – Responsive design
-
-Jinja2 – Template rendering
-
-Font Awesome – Icons
-
-🗄️ Database
-
-SQLite – Lightweight relational DB
-
-SQLAlchemy – Schema & interaction
-
-🧠 Roles & Functionalities
-
-👨‍💼 Administrator (Superuser)
-
-Manage users & requests
-
-Approve/reject card generations
-
-Monitor overall activity
-
-Auto-created during setup (no manual signup)
-
-👤 Registered User
-
-Sign up & log in
-
-Generate e-cards
-
-Submit and track requests
-
-View card history
-
-🔮 Future Improvements
-
-📧 Email delivery of generated cards
-📑 Export e-cards as PDF
-📱 Mobile-first layout
-☁️ Deployment on cloud platforms
-
-👨‍💻 Author
-
-Aditya Raj
-GitHub: aditya-raj011
